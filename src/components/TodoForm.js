@@ -19,6 +19,7 @@ class TodoForm extends React.Component {
     };
     handleAdd = e=> {
         this.props.addItem(this.state.input);
+        
     };
     handleClear = e=> {
         this.props.clearItems();
